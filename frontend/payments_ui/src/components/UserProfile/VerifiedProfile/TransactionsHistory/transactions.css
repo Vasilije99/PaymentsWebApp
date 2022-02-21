@@ -1,0 +1,28 @@
+.transactionsDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.transactions {
+    margin: auto;
+}
+
+.transactions thead {
+    background-color: #04AA6D;
+    color: white;
+    text-align: left;
+}
+
+.transactions thead th{
+    padding: 10px;
+}
+
+.transaction td {
+    border: 1px solid grey;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.transaction td:last-child {
+    font-style: italic;
+}

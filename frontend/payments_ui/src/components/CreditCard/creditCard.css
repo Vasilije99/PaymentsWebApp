@@ -1,0 +1,28 @@
+.ccForm {
+    max-width: 500px;
+}
+
+.ccForm input {
+    margin: 0px 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.ccForm button{
+    max-width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+    .ccForm input{
+        max-width: 80%;
+        margin: 10px 0px;
+        padding: 5px;
+    }
+    .ccForm button {
+        max-width: 80%;
+    }
+}

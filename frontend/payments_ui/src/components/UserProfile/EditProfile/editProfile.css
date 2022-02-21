@@ -1,0 +1,15 @@
+.edit {
+    width: fit-content;
+    text-align: center;
+    margin: 25px;
+    margin: auto;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button{
+    margin-top: 10px;
+}

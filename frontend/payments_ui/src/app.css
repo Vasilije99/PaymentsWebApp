@@ -1,0 +1,10 @@
+.main.header {
+    text-align: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 375px) {
+    .main.header {
+        text-align: left;
+    }
+}

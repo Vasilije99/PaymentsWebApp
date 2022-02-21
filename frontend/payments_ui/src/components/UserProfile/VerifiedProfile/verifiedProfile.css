@@ -1,0 +1,144 @@
+.mainContent {
+    display: flex;
+    text-align: center;
+    margin: 70px 15px;
+}
+
+.verifiedProfileDiv {
+    width: fit-content;
+}
+
+.userInfo {
+    border: 2px solid #01837c;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.userInfo img {
+    border-radius: 50%;
+    max-width: 350px;
+}
+
+.profileButton {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00B5AD;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 300px;
+}
+
+.profileButton:hover {
+    background-color: #01837c;
+}
+
+.userInfo div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: grey;
+    font-size: 18px;
+}
+
+.userInfo div span {
+    font-weight: bold;
+    color: #01837c;
+}
+
+.userBudget {
+    border: 2px solid #01837c;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    position: absolute;
+    top: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #00B5AD;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.links a:first-child {
+    left: 25px;
+}
+.links a:last-child {
+    right: 25px;
+}
+
+.dialog {
+    position: absolute;
+    width: fit-content;
+    z-index: 15;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    top: 200px; 
+    padding: 20px;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #01837c;
+    border-radius: 24px;
+}
+
+.dialog button {
+    margin-top: 10px;
+}
+
+.dialog button {
+    height: 30px;
+    border: 1px solid #01837c;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #01837c;
+    width: 100px;
+} 
+
+@media screen and (max-width: 768px) {
+    .mainContent {
+        flex-direction: column;
+    }
+
+    .verifiedProfileDiv {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .userInfo img {
+        max-width: 80%;
+    }
+
+    .dialog {
+        margin: 20px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .userInfo div {
+        flex-direction: column;
+    }
+}
